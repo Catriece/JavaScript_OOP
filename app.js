@@ -70,7 +70,7 @@ class Calculator {
     subtract(x, y){
         let res;
         if (y == undefined) {
-            res = x - this.result;
+            res = this.result - x;
         } else {
           res = x - y;
         }
@@ -92,7 +92,7 @@ class Calculator {
     divide(x, y){
         let res;
         if (y == undefined) {
-            res = x / this.result;
+            res = this.result / x;
         } else {
           res = x/y;
         }
